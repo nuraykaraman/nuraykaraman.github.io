@@ -394,24 +394,29 @@
 
       <div class="col-xs-12 col-md-8">
 
-        <!-- Floating logo -->
-        <img src="/img/economistlogo.jpg"
-             alt="The Economist"
-             class="img-responsive"
-             style="max-width: 120px; float: left; margin-right: 1rem; margin-bottom: 0.5rem;">
+        <!-- Flex container -->
+        <div style="display: flex; align-items: center; gap: 1rem;">
 
-        <!-- Wrapped text -->
-        <p style="font-size: 1.05em;">
-          <strong>Featured in The Economist.</strong>
-          A global analysis of whether men and women can be just friends,
-          highlighting how everyday cross-gender friendships relate to
-          gender equality. The article features insights from sociologist
-          Nuray Karaman on gender segregation in Turkey.
-        </p>
+          <!-- Logo -->
+          <img src="/img/economistlogo.jpg"
+               alt="The Economist"
+               class="img-responsive"
+               style="max-width: 120px; flex-shrink: 0;">
 
-        <!-- Clickable Read more only -->
-        <p style="font-style: italic; color: #555; clear: both;">
-          <a href="/content/news/gender-friendship-economist/"
+          <!-- Text -->
+          <p style="font-size: 1.05em; margin: 0;">
+            <strong>Featured in The Economist.</strong>
+            A global analysis of whether men and women can be just friends,
+            highlighting how everyday cross-gender friendships relate to
+            gender equality. The article features insights from sociologist
+            Nuray Karaman on gender segregation in Turkey.
+          </p>
+
+        </div>
+
+        <!-- Read more only clickable -->
+        <p style="font-style: italic; color: #555; margin-top: 0.6rem;">
+          <a href="/content/news/gender-friendship-economist.md/"
              style="text-decoration: none;">
             Read more →
           </a>
@@ -421,6 +426,7 @@
     </div>
   </div>
 </section>
+
 
 
     
